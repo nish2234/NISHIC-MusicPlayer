@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("back1.jpg");
+    background-size: cover;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 9vh;
+    background-image: url('nav.jpg');
+    color: blanchedalmond;
+}
+nav ul li{
+    padding: 0 2vw;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+    font-size: 21px;
+}
+.brand {
+    height: 7vh;
+    border-radius: 64px;
+    padding: 23px 22px;
+}
+.container{
+    min-height: 74vh;
+   background-image: url("box1.jpg");
+   background-size: cover;
+    color: white;
+    margin: 23px auto;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 35px;
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+    display: flex;
+    
+}
+.box1{
+    width: 70vw;
+}
+.box2 img{
+    width: 138px;
+    margin-top: -4vh;
+    border-radius: 17px;
+    padding: 0px 29px;
+    opacity: 0;
+     transition: opacity 0.4s ease-in;
+}
+   
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-image: url(nav.jpg);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#ran{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.icons{
+    margin: 12px 0px;
+}
+.icons i{
+    cursor: pointer;
+}
+.icons i:hover{
+   font-size: 2.7em;
+}
+.songItem{
+    display: flex;
+    width: 39%;
+    background-color: wheat;
+    justify-content: space-around;
+    color: black;
+    align-items: center;
+    border-radius: 28px;
+    margin: 20px 0px;
+    font-weight: bold;
+
+}
+.songItem img{
+    width: 50px;
+     margin: 4px;
+     border-radius: 34px;
+     
+
+}
+.timestamp{
+    margin: 0px 15px;
+}
+.songItemContainer{
+    margin-top: 70px;
+}
+.timestamp i{
+    cursor: pointer;
+    
+}
+.timestamp i:hover{
+    font-size: 2em;
+   
+    
+}
+
+.songInfo{
+    position: absolute;
+    left: 9vw;
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+     opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+h1{
+    display: flex;
+    align-items: center;
+    
+  }

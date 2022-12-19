@@ -1,1 +1,2 @@
-# NISHIC-MusicPlayer
+# NISHIC-Music-Player
+# NISHIC-Music-Player

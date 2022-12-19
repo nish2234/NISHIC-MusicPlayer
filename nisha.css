@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    background-image: url("nav.jpg");
+    display: flex;
+    position: sticky;
+    height: 14vh;
+}
+body{
+    background-image: url("oip2.jpg");
+    background-size: cover;
+}
+.nav1{
+    margin: 1vw 2vw;
+}
+.nav1 img{
+ 
+    height: 10vh;
+    border-radius: 64px;
+}
+.nav2{
+    margin: 1vw 1vw;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+    margin-top: 5vh;
+}
+.nav2:hover{
+    color: rgb(216, 130, 25);
+}
+.nav3:hover{
+    color: rgb(216, 130, 25);
+}
+.nav3{
+    margin: 1vw 1vw;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+    margin-top: 5vh;
+}
+#btn{
+    background-color: red;
+    color: white;
+    border: solid 2px black;
+    height: 3vw;
+    width: 6vw;
+    cursor: pointer;
+    
+    font-family: 'Quintessential', cursive;
+    font-weight: bold;
+    
+}
+#btn1{
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.nav4{
+    margin-top: 33px;
+    margin-left: 95vh;
+}
+#like{
+    height: 2vw;
+
+}
+.nav5{
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+}
+.main{
+    background-image: url("back.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.head p {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: blanchedalmond;
+    padding: 7px;
+    font-family: 'Quintessential', cursive;
+}
+.head {
+    width: 65vw;
+    margin-left: 33vw;
+    padding-top: 16vh;
+}
+.founder{
+    height: 125vh;
+    width: 50vw;
+   background-image: url("OIP.jpg");
+   background-size: cover;
+    margin-left: 23vw;
+    margin-top: 3vh;
+   
+    border-radius: 16vh;
+}
+.founder img {
+    height: 50vh;
+    margin-left: 12vw;
+    border-radius: 210px;
+    margin-top: 16px;
+}
+.w2 {
+    margin: 5vh;
+    margin-left: 7vw;
+    font-size: 41px;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+}
+.w3 {
+    width: 34vw;
+    margin-left: 7vw;
+    font-size: 26px;
+    font-family: 'Supermercado One', cursive;
+}
+.playlist{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+ .video{
+    
+    margin-left: 1vw;
+    margin-top: 5vh;
+}
+.play1{
+    height: 79vh;
+    width: 50vh;
+    background-image: url("OIP.jpg");
+    background-size: cover;
+    border-radius: 5vh;
+
+}
+.play2{
+    height: 79vh;
+    width: 50vh;
+    background-image: url("OIP.jpg");
+    background-size: cover;
+    border-radius: 5vh;
+
+
+}
+.play3{
+    height: 79vh;
+    width: 50vh;
+    background-image: url("OIP.jpg");
+    background-size: cover;
+    border-radius: 5vh;
+
+
+}
+video{
+    width: 22vw;
+
+}
+.for{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 92px;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+    
+}
+.play1 p {
+    width: 18vw;
+    margin-left: 52px;
+    font-size: 23px;
+    margin-top: 5vh;
+    font-family: 'Supermercado One', cursive;
+    
+}
+.play2 p{
+    width: 18vw;
+    margin-left: 52px;
+    font-size: 23px;
+    margin-top: 5vh;
+    font-family: 'Supermercado One', cursive;
+
+}
+.play3 p{
+    width: 18vw;
+    margin-left: 52px;
+    font-size: 23px;
+    margin-top: 5vh;
+    font-family: 'Supermercado One', cursive;
+}
+footer {
+    color: blanchedalmond;
+    text-align: center;
+    height: 10vh;
+    margin-top: 48px;
+    font-size: 2vw;
+    background-color: black;
+}
